@@ -8,4 +8,6 @@ public interface IUserDao {
 	public void editUser(User user);
 	
 	public User findUserById(Integer id);
+	
+	public void deleteUserById(Integer id);
 }

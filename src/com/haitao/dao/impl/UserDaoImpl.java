@@ -21,4 +21,9 @@ public class UserDaoImpl implements IUserDao{
 		return user;
 	}
 
+	@Override
+	public void deleteUserById(Integer id) {
+		System.out.println("delete user by Id");
+	}
+
 }
