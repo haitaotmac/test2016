@@ -15,4 +15,10 @@ public class UserDaoImpl implements IUserDao{
 		System.out.println("modify user into dba");
 	}
 
+	@Override
+	public User findUserById(Integer id) {
+		User user = null;
+		return user;
+	}
+
 }
