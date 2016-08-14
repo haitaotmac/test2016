@@ -1,5 +1,7 @@
 package com.haitao.service;
 
-public interface IUserService {
+import com.haitao.domain.User;
 
+public interface IUserService {
+	public void add(User user);
 }
