@@ -15,4 +15,14 @@ public class UserServiceImpl implements IUserService{
 		
 	}
 
+	@Override
+	public void edit(User user) {
+		
+	}
+
+	@Override
+	public User findUserById(Integer id) {
+		return null;
+	}
+
 }
